@@ -1,0 +1,62 @@
+<!-- Building a Registration Form with Various Input Types
+
+Task: Develop a registration form that includes the following fields:
+
+Username (text input)
+Password (password input)
+Date of Birth (date input)
+Gender (radio buttons for Male, Female, Other)
+Interests (checkboxes for options like Sports, Music, Reading, etc.)
+Country (dropdown select)
+Include a submit button labeled "Register." 
+Ensure that the form uses appropriate input types for each 
+field and includes basic validation where applicable.-->
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>A registration form</title>
+    </head>
+
+    <body>
+        
+        <form>
+
+            <p>Username:</p>
+            <p><input type="text" value = "Username"> </p>
+
+            <p>Password:</p>
+            <p><input type = "password" value = "Password"> </p>
+
+            <p>Date of Birth:</p>
+            <p><input type = "datetime" value = "Date of Birth"> </p>
+
+
+            <p>Gender</p>
+           <p><input type = "radio"  value = "Male" > Male </p>
+           <p><input type = "radio"  value = "Female"> Female </p>
+           <p><input type = "radio"  value = "Other"> Other </p>
+
+            <p>Interests</p>
+            <p><input type = "checkbox" value = "Music"> Music</p>
+            <p><input type = "checkbox" value = "Reading"> Reading</p>
+            <p><input type = "checkbox" value = "Sports"> Sports</p>
+
+
+            <p>Country</p>
+            <p><select>
+                <option>Tanzania</option>
+                <option>Kenya</option>
+                <option>UAE</option>
+                <option>USA</option>
+                <option>Angola</option>
+            </select></p>
+
+         
+            <input type = "submit">
+        </form>
+    </body>
+</html>
